@@ -1,0 +1,9 @@
+{
+  "name": "Nami-Doc-contains",
+  "version": "1.0.0",
+  "component": {
+    "scripts": {
+      "max": "index.js"
+    }
+  }
+}

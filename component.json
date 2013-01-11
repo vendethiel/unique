@@ -1,0 +1,15 @@
+{
+  "name": "unique",
+  "repo": "Nami-Doc/unique",
+  "description": "filters uniqueness of items in a list",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "Nami-Doc/contains": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
