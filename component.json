@@ -1,7 +1,7 @@
 {
   "name": "unique",
   "repo": "Nami-Doc/unique",
-  "description": "filters uniqueness of items in a list",
+  "description": "returns a new array without duplicates",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
