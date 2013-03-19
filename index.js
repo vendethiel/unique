@@ -17,7 +17,7 @@ module.exports = function (arr) {
   for (var i = 1; i < len; ++i) {
     var el = arr[i]
 
-    if (!contains(el, result)) {
+    if (!contains(result, el)) {
       result.push(el)
     }
   }
