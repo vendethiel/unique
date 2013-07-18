@@ -1,4 +1,10 @@
-var contains = require('contains')
+var contains
+
+try {
+  contains = require('contains-component')
+} catch {
+  contains = require('contains')
+}
 
 /**
  * Returns a new array with elements filtered by uniqueness

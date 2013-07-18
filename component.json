@@ -2,7 +2,7 @@
   "name": "unique",
   "repo": "Nami-Doc/unique",
   "description": "returns a new array without duplicates",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {
     "Nami-Doc/contains": "*"

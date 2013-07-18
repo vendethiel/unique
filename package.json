@@ -1,6 +1,6 @@
 {
   "name": "unique",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -8,9 +8,6 @@
     "bigfile": "~0.2.1"
   },
   "dependencies": {
-    "contains": "~1.0.0"
-  },
-  "bundledDependencies": [
-    "contains"
-  ]
+    "contains-component": "1.0.0"
+  }
 }
