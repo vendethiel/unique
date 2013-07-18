@@ -1,5 +1,5 @@
 
-# contains
+# unique
 
   Filters uniqueness of items in a list
 
@@ -9,7 +9,7 @@
 
 ## API
 
-### contains
+### unique
 
 ```js
 unique([1, 2, 2, 3, 3, 4])
