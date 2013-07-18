@@ -1,9 +1,16 @@
 {
-  "name": "Nami-Doc-contains",
-  "version": "1.0.0",
-  "component": {
-    "scripts": {
-      "max": "index.js"
-    }
-  }
+  "name": "unique",
+  "version": "0.0.1",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sourcegraph": "~0.3.2",
+    "bigfile": "~0.2.1"
+  },
+  "dependencies": {
+    "contains": "~1.0.0"
+  },
+  "bundledDependencies": [
+    "contains"
+  ]
 }

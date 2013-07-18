@@ -3,16 +3,21 @@ var contains = require('contains')
 /**
  * Returns a new array with elements filtered by uniqueness
  *
- * @param {Array|Object} arr
+ * @param {Array} arr
+ * @return {Array}
  */
+
 module.exports = function (arr) {
-  var el
-    , result = []
+  var result = []
+    , len = arr.length
 
-  for (var i = 0, len = arr.length; i < len; ++i) {
-    el = arr[i]
+  if (!len) return result
+  result.push(arr[0])
 
-    if (!contains(el, result)) {
+  for (var i = 1; i < len; ++i) {
+    var el = arr[i]
+
+    if (!contains(result, el)) {
       result.push(el)
     }
   }
