@@ -2,7 +2,7 @@ var contains
 
 try {
   contains = require('contains-component')
-} catch {
+} catch (e) {
   contains = require('contains')
 }
 
